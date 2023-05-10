@@ -23,6 +23,11 @@ total_sum_of_orders - shows total income by all orderes in collection "History" 
 
 Each script is described inside a file.
 
-To use scripts you need to install mongoDB shell. you can find it here -> https://www.mongodb.com/try/download/shell 
+To use scripts you need to install mongoDB shell. you can find it here -> https://www.mongodb.com/try/download/shell. Remember to add 
+environment variable - > https://stackoverflow.com/questions/51224959/mongo-is-not-recognized-as-an-internal-or-external-command-operable-program-o.
 
-Open cmd. To run script you need to **cd** to folder "./MongoDb_Project/Scripts". Then type "mongosh nameOfScript.js". 
+How to run scripts:
+
+1. Open cmd. 
+2. **cd** to folder "./MongoDb_Project/Scripts". 
+3. Then type "mongosh nameOfScript.js". 
