@@ -1,4 +1,5 @@
-// This script connects to a MongoDB database and prompts the user to enter a start date and an end date using passwordPrompt(). The dates are used in an aggregation pipeline that retrieves documents from the orders collection where the orderDate falls within the specified date range.
+/* This script connects to a MongoDB database and prompts the user to enter a start date and an end date using passwordPrompt(). 
+The dates are used in an aggregation pipeline that retrieves documents from the orders collection where the orderDate falls within the specified date range. */
 
 var db = connect("127.0.0.1:27017/projectcrm");
 
